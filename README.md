@@ -1,4 +1,6 @@
 # mini_project
-Website on The City of London.
+Website about The City of London.
+---
+Created by Beno Benny
 
-[ Visit the website ](https://benobenny.github.io/mini_project/index.html)
+[ Click me to go to the website ](https://benobenny.github.io/mini_project/index.html)

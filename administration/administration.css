@@ -1,6 +1,6 @@
 .clickable-link {
     text-decoration: none; 
-    color: var(--london-white);
+    color: var(--london-text);
     display: flex;
     justify-content: center;
     margin-bottom: 1vw;
@@ -8,15 +8,16 @@
 
 .clickable-div {
     padding: 1vh;
-    background-color: var(--london-blue);
-    border: 1px solid #ddd;
+    /* background-color: var(--london-blue); */
+    background-color: #E5E9F0;
+    border: 1px solid #000000;
     border-radius: 8px;
     width: 80vw;
     transition: background-color 0.3s;
 }
 
 .clickable-div:hover {
-    background-color: #05375a;
+    background-color: var(--london-white);
     scale: 1.05;
     transition: 0.3s;
     
