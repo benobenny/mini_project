@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'fontHeading';
+    src: url('./assets/XanhMono-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'fontNormal';
+    src: url('./assets/Quicksand-VariableFont_wght.ttf') format('truetype'),
+
+}
+@font-face {
+    font-family: 'fontAlt';
+    src: url('./assets/ZenLoop-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'fontTitle_Bold';
+    src: url('./assets/InknutAntiqua-Bold.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'fontTitle';
+    src: url('./assets/InknutAntiqua-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'fontTrad';
+    src: url('./assets/GrenzeGotisch-VariableFont_wght.ttf') format('truetype'),
+}
+
+:root {
+    --fontTrad: 'fontTrad';
+    --fontTitle: 'fontTitle';
+    --fontTitle_Bold: 'fontTitle_Bold';
+    --fontAlt: 'fontAlt';
+    --fontNormal: 'fontNormal';
+    --fontHeading: 'fontHeading';
+}

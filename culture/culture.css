@@ -1,0 +1,40 @@
+.info-section{
+    text-align: justify;
+}
+
+
+.imgBox {
+    position: absolute;
+    height: 60vh;
+    min-width: 45vw;
+    display: flex;justify-content: center;
+    overflow:hidden;
+    /* padding: 0 2vw; */
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .imgBox img{
+    border-radius: 1vw;
+  }
+  
+  .rowFlex{
+    /* border: 3px dashed rgb(255, 0, 0); */
+    position: relative;
+    padding: 2vw;
+    background-color: #fff;
+  }
+  
+  
+  .sideText h3{
+    font-size: 2.5vh;
+    color: var(--london-blue);
+  }
+  
+  strong{
+    color: var(--london-red);
+  }
+  
+  .info-section p{
+    font-size: 2.5vh;
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The City of London : Weather</title>
+
+    <link rel="stylesheet" href="/City of London/weather/weather.css">
+</head>
+<body>
+<main>
+    <h2>Weather in the city</h2>
+<div class="columnFlex">
+    <div class="info-section">
+        <h3>Overview</h3>
+        <p>London experiences a temperate maritime climate, characterized by mild winters and cool summers. Rainfall is evenly distributed throughout the year, so it’s always a good idea to carry an umbrella!</p>
+        <div id="weatherWidget"></div>
+    </div>
+    <div class="info-section">
+        <h3>Traveler Tips</h3>
+        <ul>
+            <li>Carry a lightweight, waterproof jacket year-round.</li>
+            <li>Pack layers during spring and autumn to adjust to fluctuating temperatures.</li>
+            <li>In winter, bring a warm coat, gloves, and scarves.</li>
+            <li>Comfortable shoes are essential for exploring the city.</li>
+        </ul>
+    </div>
+    <div class="info-section">
+        <h3>Seasonal Weather</h3>
+        <h4>Spring (March - May)</h4>
+        <p>Spring is mild and pleasant, with average temperatures ranging from 8°C to 15°C. Perfect for exploring parks like Hyde Park and Kew Gardens.</p>
+        <h4>Summer (June - August)</h4>
+        <p>Summer is warm, with temperatures between 15°C and 25°C. Enjoy outdoor events, festivals, and Thames river cruises.</p>
+        <h4>Autumn (September - November)</h4>
+        <p>Autumn is cool and crisp, with vibrant foliage in parks. Temperatures range from 10°C to 18°C.</p>
+        <h4>Winter (December - February)</h4>
+        <p>Winter is chilly but rarely freezing, with temperatures between 2°C and 8°C. Perfect for festive markets and cozy pubs.</p>
+    </div>    
+    <div class="info-section">
+        <h3>Live Updates</h3>
+        <div id="weatherInfo"></div>
+    </div>
+</div>
+    
+</main>
+    <script src="/City of London/common/common.js"></script>
+    <script src="/City of London/weather/weather.js"></script>
+    <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+
+
+
+h3{
+    text-align: center ;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.event-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 26vw;
+    padding: 3vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-image {
+    flex-shrink: 0;
+    width: 200px;
+    height: 120px;
+}
+
+.event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1px;
+}
+
+
+.event-card h3 {
+    color: #333;
+}
+
+.event-card p {
+    color: #555;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+  gap: 1vw;
+  justify-content: center;
+}

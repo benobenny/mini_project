@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 11vh;
+    margin-bottom: 4vh;
+    background-color: var(--london-background);
+    color: var(--london-text);
+}
+   
+.headerNav ul, .footerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    /* gap: 2vw; */
+    padding: 0vw 2vw 0vw 2vw;
+    margin: 0;
+    align-items: center;
+    min-width: 96vw;
+    height: 100%;
+    
+}
+.headerNav a, .footerDiv a {
+    color: var(--london-white);
+}
+
+.headerNav ul :hover, 
+.footerDiv a:hover{
+    color: var(--london-yellow);
+    transform: scale(1.3);
+    text-decoration-line: underline;
+}
+
+
+footer,header{
+    font-family: var(--fontHeading);
+    font-size: 2.4vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 2;
+    background-color: var(--london-blue);
+}
+
+
+header{
+    top: 0;
+    height: 11vh;
+}
+
+footer{
+    bottom: 0;
+    height: 4vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.headerNav p{
+    margin-top:0;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-family: var(--fontTrad);
+    justify-content: center;
+    text-align: center;
+    color: var(--london-white);
+    font-weight: 200;
+    font-size: 2vw;
+}
+
+.footerDiv{
+    justify-content: space-between;
+}
+
+
+
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.rowFlex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.rowFlex, .columnFlex{
+    justify-content: center;    
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    font-family: var(--fontTitle);
+    font-size: 3vh;;
+    padding-top: 2vh;   
+}
+
+h3{
+    font-family: var(--fontHeading);
+    font-weight: bold;
+    font-size: 2.5vh;
+    padding-bottom: 3vh;
+}
+
+
+.imgBox{
+    /* min-width: 50vw; */
+    max-width: 50vw;
+    max-height: 60vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1vw;
+    /* min-height: 60vh; */
+    object-fit: fill;
+}
+
+.info-section{
+    font-family: var(--fontAlt);
+    font-weight: bold;
+    font-size: 3.5vh;
+    word-spacing: 1vh;
+    padding: 0 2vw 2vw 2vw;
+}
+
+
+#imgDesc{
+    background-color: rgba(0, 0, 0, 0.406);
+    padding: 3px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 13px;
+    width: 100%;
+    bottom: 0;
+    color: var(--london-white);
+    position: absolute;
+  }

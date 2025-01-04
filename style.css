@@ -1,0 +1,46 @@
+
+.imgBox{
+    min-width: 50vw;
+    max-width: 50vw;
+    /* max-height: 60vh;
+    overflow: hidden;
+    border-radius: 1vw;
+    min-height: 60vh;
+    object-fit: fill; */
+}
+
+
+.sideText{
+    text-align: justify;
+    font-family: var(--fontAlt);
+    max-width: 40vw;
+    padding: 2vw;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.link-item {
+    text-decoration: none;
+    font-size: 4vh;
+    margin: 2vh;
+    color: var(--london-blue);
+    transition: color 0.3s;
+}
+
+.link-item:hover {
+    color: var(--london-red);
+    background-color: var(--london-yellow);
+    font-weight: bold;
+}
+
+.sideText h3{
+    margin: 1vh;
+    font-family: var(--fontHeading);
+    font-size: 4vh;
+    color: var(--london-text);
+}
+

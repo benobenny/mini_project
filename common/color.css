@@ -1,0 +1,18 @@
+:root {
+    --london-red: #C8102E;
+    --london-blue: #003C71;
+    --london-white: #FFFFFF;
+    --london-gray: #7C878E;
+    --london-beige: #D1C7B7;
+    --london-yellow: #FFC72C;
+    --london-green: #5B7444;
+    --london-text: #212529;
+    --london-background: #F5F5F5;
+    --light-color: #F8F9FA;
+    --dark-color: #343A40;
+    --background-color: #FFFFFF;
+    --text-color: #212529;
+    --london-sky: #11c1f2;
+    --black-shade:rgba(0, 0, 0, 0.6);
+    --white-shade:rgba(255, 255, 255, 0.6);
+}

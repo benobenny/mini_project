@@ -1,0 +1,23 @@
+
+
+.imgBox {
+  position: absolute;
+  height: 60vh;
+  min-width: 30vw;
+  display: flex;justify-content: center;
+  overflow:hidden;
+  /* padding: 0 2vw; */
+  border: 1px solid black;
+  position: relative;
+}
+
+.imgBox img{
+  max-width: 30vw;
+border-radius: 1vw;
+}
+
+.rowFlex{
+  /* border: 3px dashed rgb(255, 0, 0); */
+  position: relative;
+  gap: 2vw;
+}

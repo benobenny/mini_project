@@ -1,0 +1,43 @@
+#weatherWidget{
+  margin-bottom: 4vh;
+}
+
+.imgBox {
+    position: absolute;
+    height: 60vh;
+    min-width: 45vw;
+    display: flex;justify-content: center;
+    overflow:hidden;
+    /* padding: 0 2vw; */
+    position: relative;
+}
+  
+.imgBox img{
+  border: 2px solid black;
+  border-radius: 1vw;
+}
+
+.columnFlex{
+  row-gap: 0 !important;
+}
+.info-section{
+  margin: 1vw;
+  height: 100%;
+  width: 95%;
+  text-align: justify;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+.info-section h3{
+  text-align: center;
+}
+.info-section h4{
+  color: var(--london-red);
+  font-weight: bold;
+}
+
+.info-section #weatherWidget{
+  display: flex;
+  justify-content: center;
+}
+

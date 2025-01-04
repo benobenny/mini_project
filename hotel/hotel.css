@@ -1,0 +1,56 @@
+
+
+  
+.imgBox {
+    position: absolute;
+    height: 50vh;
+    min-width: 30vw;
+    overflow: hidden;
+    padding: 0 2vw;
+    position: relative;
+}
+  
+.imgBox img{
+    max-width: 30vw;
+    border-radius: 1vw;
+}
+  
+.rowFlex{
+    /* border: 3px dashed rgb(255, 0, 0); */
+    position: relative;
+    padding: 2vw;
+}
+
+.info-section{
+    text-align: justify;
+    width: 50vw;
+    font-size: 1vw;
+}
+  
+.sideText h3{
+    font-size: 2.5vh;
+    color: var(--london-blue);
+}
+  
+
+.bookNow a{
+color: var(--london-white);
+}
+
+
+.bookNow{
+    background-color: var(--london-blue);
+    padding: 1vh;
+    margin-left: 24vw;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    border-radius: 1vw;;
+    height: 30px;
+}
+
+.bookNow:hover{
+    background-color: var(--london-text);
+}
