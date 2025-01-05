@@ -23,8 +23,8 @@
 .info-section{
   margin: 1vw;
   height: 100%;
-  width: 95%;
-  text-align: justify;
+  width: 100%;
+  text-align: center;
   background-color: aliceblue;
   border: 1px solid black;
 }
@@ -39,5 +39,9 @@
 .info-section #weatherWidget{
   display: flex;
   justify-content: center;
+}
+
+#tips, #weatherInfo{
+  width: 100%;
 }
 
